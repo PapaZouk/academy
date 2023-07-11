@@ -1,0 +1,9 @@
+logging:
+  level: DEBUG
+  loggers:
+    org.kainos.ea: DEBUG
+
+server:
+  applicationConnectors:
+    -type: http
+    port: 8090
